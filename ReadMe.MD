@@ -10,4 +10,4 @@ Current functionalities:
 · Mint buttons which allow an easy interaction with the smart contract.
 · You can change and refresh your current Metamask wallet.
 · Gallery of minted frogs.
-![Functionalities] (https://github.com/widroz/FrogFactory/blob/master/public/frogfactoryrecorded%20(4).gif)
+![Functionalities](https://github.com/widroz/FrogFactory/blob/master/public/frogfactoryrecorded%20(4).gif)
