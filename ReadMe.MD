@@ -18,5 +18,7 @@ Current functionalities:
 
 ### Currently working on:
 
-Learning about dedicated gateways and improving user experience to notify user when last minted frogs are available in Gallery.
-A screen for browsers without Metamask installed.
+    · Learning about dedicated gateways.
+    · Improving user experience to notify user when last minted frogs are available in Gallery
+    · A screen for browsers without Metamask installed.
+
