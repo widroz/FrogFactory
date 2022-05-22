@@ -13,3 +13,10 @@ Current functionalities:
 · Gallery of minted frogs.
 
 ![Functionalities](https://github.com/widroz/FrogFactory/blob/master/public/frogfactoryrecorded%20(4).gif)
+
+
+
+### Currently working on:
+
+Learning about dedicated gateways and improving user experience to notify user when last minted frogs are available in Gallery.
+A screen for browsers without Metamask installed.
