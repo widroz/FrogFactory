@@ -7,6 +7,7 @@ Currently working on this website, which allows interaction with smart contract 
 ![Responsive Design 2](https://github.com/widroz/FrogFactory/blob/master/public/frogfactoryrecorded%20(2).gif)
 
 Current functionalities:
+
 · Mint buttons which allow an easy interaction with the smart contract.
 · You can change and refresh your current Metamask wallet.
 · Gallery of minted frogs.
