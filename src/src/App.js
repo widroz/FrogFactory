@@ -26,7 +26,7 @@ function App() {
   }
 
   async function getMyTokens() {
-
+    console.log("Getting tokens, remeber IPFS can take a while to load (even more than 30 minutes), when ipfs links are available, they will be loaded in a very short time.");
     if (window.ethereum) {
       const provider = myProvider;
       const signer = provider.getSigner();
@@ -41,7 +41,7 @@ function App() {
         const reponse = await contract.walletOfOwner(defaultAccount);
         
         setMyTokenIds(reponse);
-
+        console.log("MY TOKEN IDS: " + myTokenIds);
         const myImages = [];
         const tokens = []
         const tokenAttributes = [];
@@ -56,8 +56,10 @@ function App() {
           setMyTokenImages(myImages);
           setMyTokens(tokens);
           setMyTokenAttributes(tokenAttributes);
+
+          console.log("ITERATION " + i + "|| images:" + myImages);
         }
-      } catch (err) { console.log("3ERROR: ", err) }
+      } catch (err) { console.log("Error when getting tokens (remember that a simple - and free - access to IPFS files is being used, then 504 can happen until links are reachable. Expected error: Unexpected token < in JSON at position 0) -> ", err)}
     }
     return;
   }
@@ -80,6 +82,7 @@ function App() {
 
   useEffect(() => {
     if(defaultAccount)getMyTokens()
+    else{console.log("not default account")}
   }, [defaultAccount]);
 
 
@@ -98,4 +101,5 @@ function App() {
 }
 
 export default App;
+
 
