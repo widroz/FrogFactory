@@ -77,7 +77,7 @@ function App() {
           setConnectionButtonText('Wallet Connected');
           getMyTokens();
         })
-    } else { setConnectionButtonText('Install Metamask!'); }
+    } else { setConnectionButtonText('Install Metamask!');window.open("https://metamask.io/", "_blank") }
   }
 
   useEffect(() => {
