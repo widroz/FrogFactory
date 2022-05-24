@@ -10,7 +10,7 @@ function Gallery({ myTokenImages, getMyTokens}) {
                     <MainMint ></MainMint>
                     <div className="my-5" style={{ display: 'flex', flexDirection: 'row', alignItems:'center' }}>
                         <h3 style={{marginRight:'1rem'}} >My Collection:</h3>
-                        <button className="btn btn-outline-info btn-lg" onClick={getMyTokens} >{RELOAD_EMOJI} Tokens</button>
+                        <button className="button-gallery btn btn-outline-info btn-lg" onClick={getMyTokens} >{RELOAD_EMOJI} Tokens</button>
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@ function Gallery({ myTokenImages, getMyTokens}) {
             <div  style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <MainMint></MainMint>
                 <h4 className="my-3" style={{ marginLeft: '3rem', marginRight: '3rem' }}>or</h4>
-                <button className="btn btn-outline-dark btn-lg" onClick={getMyTokens}>{RELOAD_EMOJI} Tokens</button>
+                <button className="button-gallery btn btn-outline-dark btn-lg" onClick={getMyTokens}>{RELOAD_EMOJI} Tokens</button>
             </div>
         );
     }

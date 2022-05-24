@@ -41,7 +41,7 @@ const MainMint = () =>{
 
     return(<div  style={{display:'flex',flexDirection:'row'}}>
         <button className="btn btn-primary btn-lg" key={4} onClick={handleDecrement}>-</button>
-        <button className="btn btn-primary mx-1 btn-lg" key={5} onClick={handleMint}>
+        <button className="button-gallery btn btn-primary mx-1 btn-lg" key={5} onClick={handleMint}>
             <h4>Mint {mintAmount} {FROG_EMOJI}</h4></button>
         <button className="btn btn-primary btn-lg" key={6} onClick={handleIncrement}>+</button>
     </div>

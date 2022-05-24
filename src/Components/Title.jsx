@@ -1,9 +1,7 @@
 
 function Title(){
     return(
-    <div className='div-title'>
-        <p className="title" >Frog Factory</p>
-    </div>
+        <p className="title">F R O G&nbsp;&nbsp;F A C T O R Y</p>
     );
 }
 

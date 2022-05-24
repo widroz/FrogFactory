@@ -11,7 +11,7 @@ function MainApp({ myTokenImages, ethersConfig, defaultAccount, myTokenIds, getM
             <BootstrapStyles></BootstrapStyles>
             <div>
                 <div className="bd-highlight">
-                    <Title/>
+                    <p className="title-gallery">F R O G&nbsp;&nbsp;F A C T O R Y</p>
                     <WalletState defaultAccount={defaultAccount} connectWalletHandler={connectWalletHandler} getMyTokens={getMyTokens}></WalletState>
                 </div>
                 <Gallery myTokenImages={myTokenImages} defaultAccount={defaultAccount} myTokenIds={myTokenIds} getMyTokens={getMyTokens}></Gallery>
